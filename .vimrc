@@ -8,7 +8,14 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+syntax on
 set expandtab
-set spell
+" set spell
+set number
+set showmatch
+
+set tabstop=2
+set shiftwidth=2
+set scrolloff=3
 
 autocmd vimenter * NERDTree
