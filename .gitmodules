@@ -1,0 +1,18 @@
+[submodule "delimitMate"]
+	path = delimitMate
+	url = ./.vim/bundle/delimitMate
+[submodule "FuzzyFinder"]
+	path = FuzzyFinder
+	url = ./.vim/bundle/FuzzyFinder
+[submodule "L9"]
+	path = L9
+	url = ./.vim/bundle/L9
+[submodule "nerdtree"]
+	path = nerdtree
+	url = ./.vim/bundle/nerdtree
+[submodule "snipmate.vim"]
+	path = snipmate.vim
+	url = ./.vim/bundle/snipmate.vim
+[submodule "tcomment_vim"]
+	path = tcomment_vim
+	url = ./.vim/bundle/tcomment_vim
