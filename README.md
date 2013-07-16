@@ -1,4 +1,3 @@
-
 # dotfiles
 
-My dotfiles and system configs
+My customized system configuration files
