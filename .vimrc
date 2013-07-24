@@ -9,6 +9,7 @@ if has("autocmd")
 endif
 
 set background=dark
+color blackboard
 syntax on
 set expandtab
 " set spell
