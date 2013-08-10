@@ -8,8 +8,8 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
-set background=dark
-color blackboard
+" set background=dark
+color mac_classic
 syntax on
 set expandtab
 " set spell
