@@ -8,8 +8,8 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
-" set background=dark
-color mac_classic
+set background=dark
+color sunburst
 syntax on
 set expandtab
 " set spell
