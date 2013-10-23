@@ -11,4 +11,4 @@ https://github.com/ricardovaleriano/vim-github-theme.git
 https://github.com/nelstrom/vim-mac-classic-theme.git
 https://github.com/tpope/vim-markdown.git
 https://github.com/tpope/vim-rails.git
-https://github.com/mattn/zencoding-vim.git
+git@github.com:mattn/emmet-vim.git
