@@ -1,6 +1,10 @@
 
 call pathogen#infect()
 
+set t_Co=256
+set background=dark
+color mustang
+syntax on
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
@@ -8,23 +12,53 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
-set background=dark
-color sunburst
-syntax on
-set expandtab
-" set spell
-set number
-set showmatch
+let mapleader = ","
+let g:mapleader = ","
+let g:user_emmet_leader_key = '<leader>y'
 
-set tabstop=2
-set shiftwidth=2
-set scrolloff=3
+set autoindent
+set autoread
+" set binary
+set expandtab
+set ignorecase
+set incsearch
+set hidden
+set hlsearch
+set noeol
+set number
+set nobackup
+set nocompatible
 set noswapfile
 set nowrap
-set t_Co=256
-set noeol
-" set binary
+set nowritebackup
+set ruler
+set si
+" set spell
+set showcmd
+set showmatch
+set smartcase
+set smarttab
+set visualbell
+set wildmenu
+
+set backspace=indent,eol,start
+set encoding=utf8
+set history=50
+set pastetoggle=<F11>
+set shiftwidth=2
+set scrolloff=3
+set tabstop=2
+
+imap jj <Esc>
 
 " autocmd vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
+nmap <leader>w :w!<cr>
+nmap <leader>q :q!<cr>
 
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" map <leader>pp :setlocal paste!<cr>
