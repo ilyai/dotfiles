@@ -54,7 +54,7 @@ imap jj <Esc>
 " autocmd vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <leader>w :w!<cr>
-nmap <leader>q :q!<cr>
+nmap <leader>q :q<cr>
 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
