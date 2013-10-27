@@ -44,12 +44,10 @@ set wildmenu
 set backspace=indent,eol,start
 set encoding=utf8
 set history=50
-set pastetoggle=<F11>
+set pastetoggle=<F4>
 set shiftwidth=2
 set scrolloff=3
 set tabstop=2
-
-imap jj <Esc>
 
 " autocmd vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
