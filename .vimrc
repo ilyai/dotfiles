@@ -22,7 +22,7 @@ set autoread
 set expandtab
 set ignorecase
 set incsearch
-set hidden
+set nohidden
 set hlsearch
 set noeol
 set number
@@ -38,7 +38,7 @@ set showcmd
 set showmatch
 set smartcase
 set smarttab
-set visualbell
+" set visualbell
 set wildmenu
 
 set backspace=indent,eol,start
@@ -53,6 +53,7 @@ set tabstop=2
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
+nmap <leader>h :nohlsearch<cr>
 
 map <C-j> <C-W>j
 map <C-k> <C-W>k
