@@ -1,3 +1,3 @@
 # dotfiles
 
-My customized system configuration files
+My customized configurations for GNU/Linux
