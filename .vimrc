@@ -32,7 +32,7 @@ set noswapfile
 set nowrap
 set nowritebackup
 set ruler
-set si
+set cindent
 " set spell
 set showcmd
 set showmatch
@@ -48,7 +48,7 @@ set pastetoggle=<F4>
 set shiftwidth=2
 set scrolloff=3
 set tabstop=2
-set timeoutlen=200
+set timeoutlen=400
 
 " autocmd vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
@@ -62,3 +62,5 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " map <leader>pp :setlocal paste!<cr>
+
+filetype indent off
