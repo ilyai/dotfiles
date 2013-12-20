@@ -1,0 +1,4 @@
+\pset pager always
+\pset null '(NULL)'
+\timing on
+\x on
