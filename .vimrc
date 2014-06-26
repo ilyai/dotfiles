@@ -3,7 +3,7 @@ call pathogen#infect()
 
 set t_Co=256
 set background=dark
-color mustang
+color blackboard
 syntax on
 
 " Uncomment the following to have Vim load indentation rules and plugins
@@ -19,7 +19,7 @@ let g:user_emmet_leader_key = '<leader>y'
 set autoindent
 set autoread
 " set binary
-set expandtab
+" set expandtab
 set ignorecase
 set incsearch
 set nohidden
@@ -49,6 +49,8 @@ set shiftwidth=2
 set scrolloff=3
 set tabstop=2
 set timeoutlen=400
+
+imap <leader>, <Esc>
 
 " autocmd vimenter * NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
