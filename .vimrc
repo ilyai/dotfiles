@@ -14,7 +14,7 @@ endif
 
 " let mapleader = ","
 " let g:mapleader = ","
-let g:user_emmet_leader_key = '<leader>y'
+" let g:user_emmet_leader_key = '<leader>y'
 
 set autoindent
 set autoread
