@@ -32,7 +32,8 @@ set noswapfile
 " set nowrap
 set nowritebackup
 set ruler
-" set cindent
+set cindent
+" set smartindent
 " set spell
 set showcmd
 set showmatch
