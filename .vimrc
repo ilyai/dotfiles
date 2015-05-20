@@ -29,7 +29,7 @@ set number
 set nobackup
 set nocompatible
 set noswapfile
-" set nowrap
+set nowrap
 set nowritebackup
 set ruler
 set cindent
@@ -67,3 +67,4 @@ map <C-l> <C-W>l
 " map <leader>pp :setlocal paste!<cr>
 
 " filetype indent off
+au BufNewFile,BufRead *.s,*.asm,*.inc setlocal shiftwidth=8 tabstop=8 noexpandtab
