@@ -67,4 +67,4 @@ map <C-l> <C-W>l
 " map <leader>pp :setlocal paste!<cr>
 
 " filetype indent off
-au BufNewFile,BufRead *.s,*.asm,*.inc setlocal shiftwidth=8 tabstop=8 noexpandtab
+au BufNewFile,BufRead *.s,*.S,*.asm,*.inc setlocal shiftwidth=8 tabstop=8 noexpandtab
