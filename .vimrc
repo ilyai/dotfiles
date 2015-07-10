@@ -19,7 +19,7 @@ endif
 set autoindent
 set autoread
 " set binary
-set expandtab
+" set expandtab
 set ignorecase
 set incsearch
 set nohidden
@@ -46,9 +46,9 @@ set backspace=indent,eol,start
 set encoding=utf8
 set history=50
 set pastetoggle=<F4>
-set shiftwidth=2
+set shiftwidth=8
 set scrolloff=3
-set tabstop=2
+set tabstop=8
 set timeoutlen=400
 
 " imap <leader>, <Esc>
@@ -67,4 +67,5 @@ map <C-l> <C-W>l
 " map <leader>pp :setlocal paste!<cr>
 
 " filetype indent off
-au BufNewFile,BufRead *.s,*.S,*.asm,*.inc setlocal shiftwidth=8 tabstop=8 noexpandtab
+au BufNewFile,BufRead *.html,*.css,*.js,*.less setlocal shiftwidth=4 tabstop=4 noexpandtab
+au BufNewFile,BufRead *.c,*.h setlocal cc=80
