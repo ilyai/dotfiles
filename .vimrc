@@ -23,7 +23,7 @@ set autoread
 set ignorecase
 set incsearch
 set nohidden
-set hlsearch
+" set hlsearch
 set noeol
 set number
 set nobackup
