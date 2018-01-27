@@ -1,9 +1,9 @@
 
 call pathogen#infect()
 
-set t_Co=256
+" set t_Co=256
 set background=dark
-color blackboard
+color smyck
 syntax on
 
 " Uncomment the following to have Vim load indentation rules and plugins
@@ -18,8 +18,8 @@ endif
 
 set autoindent
 set autoread
-" set binary
-" set expandtab
+set binary
+set expandtab
 set ignorecase
 set incsearch
 set nohidden
@@ -33,7 +33,7 @@ set nowrap
 set nowritebackup
 set ruler
 set cindent
-" set smartindent
+set smartindent
 " set spell
 set showcmd
 set showmatch
@@ -46,9 +46,9 @@ set backspace=indent,eol,start
 set encoding=utf8
 set history=50
 set pastetoggle=<F4>
-set shiftwidth=8
+set shiftwidth=2
 set scrolloff=3
-set tabstop=8
+set tabstop=2
 set timeoutlen=400
 
 " imap <leader>, <Esc>
@@ -67,5 +67,5 @@ map <C-l> <C-W>l
 " map <leader>pp :setlocal paste!<cr>
 
 " filetype indent off
-au BufNewFile,BufRead *.html,*.css,*.js,*.less setlocal shiftwidth=4 tabstop=4 noexpandtab
+au BufNewFile,BufRead *.html,*.css,*.js,*.less,*.sh,*.py setlocal shiftwidth=2 tabstop=2 noexpandtab
 au BufNewFile,BufRead *.c,*.h setlocal cc=80
